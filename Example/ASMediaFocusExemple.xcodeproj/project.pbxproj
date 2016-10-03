@@ -48,7 +48,7 @@
 		4ABF0B0616A0575C0053040A /* ASMediaFocusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF0B0416A0575C0053040A /* ASMediaFocusManager.m */; };
 		4ABF0B1916A2E62E0053040A /* ASMediaFocusController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ABF0B1816A2E62E0053040A /* ASMediaFocusController.xib */; };
 		4AFDA6AA18C7179B00A1D0C4 /* ASTransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDA6A918C7179B00A1D0C4 /* ASTransparentView.m */; };
-		5D652D63F5A5B81C4248D080 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EBCB35FEC3634F0B355A1 /* libPods.a */; };
+		B82D273CD88BBD1FA720C13D /* libPods-ASMediaFocusExemple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A10EA80C2EEE8F9C89761A /* libPods-ASMediaFocusExemple.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +60,7 @@
 		00DBB4801B2608A100A64046 /* UIImage+ASMediaFocusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ASMediaFocusManager.m"; sourceTree = "<group>"; };
 		00DBB4821B260C4E00A64046 /* ASMediaRotatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMediaRotatingViewController.h; sourceTree = "<group>"; };
 		00DBB4831B260C4E00A64046 /* ASMediaRotatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMediaRotatingViewController.m; sourceTree = "<group>"; };
-		3FD5F869702ABB49C37B7985 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		05A10EA80C2EEE8F9C89761A /* libPods-ASMediaFocusExemple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASMediaFocusExemple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0BC97A1AC9846F000904A2 /* 3f.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3f.mp4; sourceTree = "<group>"; };
 		4A0BC97C1AC9A684000904A2 /* ASVideoControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASVideoControlView.h; sourceTree = "<group>"; };
 		4A0BC97D1AC9A684000904A2 /* ASVideoControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASVideoControlView.m; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 		4ABF0B1816A2E62E0053040A /* ASMediaFocusController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASMediaFocusController.xib; sourceTree = "<group>"; };
 		4AFDA6A818C7179B00A1D0C4 /* ASTransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTransparentView.h; sourceTree = "<group>"; };
 		4AFDA6A918C7179B00A1D0C4 /* ASTransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTransparentView.m; sourceTree = "<group>"; };
-		6B141BBDC59FA06A06AF5AF3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D29EBCB35FEC3634F0B355A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD84B76D38573FF80DEAC68 /* Pods-ASMediaFocusExemple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASMediaFocusExemple.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASMediaFocusExemple/Pods-ASMediaFocusExemple.release.xcconfig"; sourceTree = "<group>"; };
+		FBE85A4F69D14F8CE346BC5A /* Pods-ASMediaFocusExemple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASMediaFocusExemple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASMediaFocusExemple/Pods-ASMediaFocusExemple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				4A15DE2916776BE9004C6733 /* UIKit.framework in Frameworks */,
 				4A15DE2B16776BE9004C6733 /* Foundation.framework in Frameworks */,
 				4A15DE2D16776BE9004C6733 /* CoreGraphics.framework in Frameworks */,
-				5D652D63F5A5B81C4248D080 /* libPods.a in Frameworks */,
+				B82D273CD88BBD1FA720C13D /* libPods-ASMediaFocusExemple.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 				4A15DE6216776EC7004C6733 /* Resources */,
 				4A15DE2716776BE9004C6733 /* Frameworks */,
 				4A15DE2516776BE9004C6733 /* Products */,
-				DA6673F8E51DEC59A7B89DA0 /* Pods */,
+				BD1F95303CD4498DE271A005 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,7 +169,7 @@
 				4A15DE2816776BE9004C6733 /* UIKit.framework */,
 				4A15DE2A16776BE9004C6733 /* Foundation.framework */,
 				4A15DE2C16776BE9004C6733 /* CoreGraphics.framework */,
-				D29EBCB35FEC3634F0B355A1 /* libPods.a */,
+				05A10EA80C2EEE8F9C89761A /* libPods-ASMediaFocusExemple.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -276,11 +276,11 @@
 			path = ../../ASMediaFocusManager;
 			sourceTree = "<group>";
 		};
-		DA6673F8E51DEC59A7B89DA0 /* Pods */ = {
+		BD1F95303CD4498DE271A005 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B141BBDC59FA06A06AF5AF3 /* Pods.debug.xcconfig */,
-				3FD5F869702ABB49C37B7985 /* Pods.release.xcconfig */,
+				FBE85A4F69D14F8CE346BC5A /* Pods-ASMediaFocusExemple.debug.xcconfig */,
+				7DD84B76D38573FF80DEAC68 /* Pods-ASMediaFocusExemple.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -292,11 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A15DE4B16776BE9004C6733 /* Build configuration list for PBXNativeTarget "ASMediaFocusExemple" */;
 			buildPhases = (
-				A5AC1DAD3A981DCE37B9B6F5 /* Check Pods Manifest.lock */,
+				0DF8F034D726035216D654FF /* [CP] Check Pods Manifest.lock */,
 				4A15DE2016776BE9004C6733 /* Sources */,
 				4A15DE2116776BE9004C6733 /* Frameworks */,
 				4A15DE2216776BE9004C6733 /* Resources */,
-				764B321F18597B26589B9E18 /* Copy Pods Resources */,
+				0F70BF579975E4CC82B19A44 /* [CP] Embed Pods Frameworks */,
+				9508484BF8BE730DA7AAE818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,34 +368,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		764B321F18597B26589B9E18 /* Copy Pods Resources */ = {
+		0DF8F034D726035216D654FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A5AC1DAD3A981DCE37B9B6F5 /* Check Pods Manifest.lock */ = {
+		0F70BF579975E4CC82B19A44 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASMediaFocusExemple/Pods-ASMediaFocusExemple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9508484BF8BE730DA7AAE818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASMediaFocusExemple/Pods-ASMediaFocusExemple-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -505,7 +521,7 @@
 		};
 		4A15DE4C16776BE9004C6733 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B141BBDC59FA06A06AF5AF3 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = FBE85A4F69D14F8CE346BC5A /* Pods-ASMediaFocusExemple.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASMediaFocus/ASMediaFocusExemple-Prefix.pch";
@@ -518,7 +534,7 @@
 		};
 		4A15DE4D16776BE9004C6733 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FD5F869702ABB49C37B7985 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 7DD84B76D38573FF80DEAC68 /* Pods-ASMediaFocusExemple.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASMediaFocus/ASMediaFocusExemple-Prefix.pch";

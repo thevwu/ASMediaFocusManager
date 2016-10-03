@@ -394,11 +394,6 @@ static char const kPlayerPresentationSizeContext;
     return self.scrollView.zoomImageView;
 }
 
-- (void)scrollViewDidZoom:(UIScrollView *)scrollView
-{
-    [self showAccessoryView:[self accessoryViewCanShow]];
-}
-
 #pragma mark - KVO
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
